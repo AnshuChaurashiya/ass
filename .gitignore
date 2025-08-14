@@ -1,0 +1,43 @@
+# Node dependencies
+**/node_modules/
+
+# Build output / caches
+**/dist/
+**/build/
+**/out/
+**/.cache/
+**/.vite/
+**/.next/
+**/.nuxt/
+**/.angular/
+coverage/
+
+# Environment files (keep secrets out of git)
+**/.env
+**/.env.*
+!.env.example
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Editor/IDE
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Misc archives
+*.tgz
+*.zip
+
