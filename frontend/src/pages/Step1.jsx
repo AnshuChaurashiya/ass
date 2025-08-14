@@ -5,7 +5,7 @@ import Progress from '../components/Progress';
 import { useNavigate } from 'react-router-dom';
 import { useFormContext } from '../context/FormContext';
 
-const API_BASE = import.meta.env.VITE_API_BASE_URL || 'http://localhost:4000';
+const API_BASE = import.meta.env.VITE_API_BASE_URL || 'https://ass-xyat.onrender.com';
 
 export default function Step1() {
   const [schema, setSchema] = useState(null);
